@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Button } from './components/Button';
+import './styles/global.css';
 
 function App() {
   return (
-    <h1>hello NLW</h1>
+    <div>
+      <button style={{ height: '2rem' }}>test</button>
+    </div>
   );
 }
 
