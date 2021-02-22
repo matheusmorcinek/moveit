@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
 import { Button } from './components/Button';
 import './styles/global.css';
+import {ExperienceBar} from './components/ExperienceBar';
 
 function App() {
   return (
-    <div>
-      <button style={{ height: '2rem' }}>test</button>
+    <div className="container">
+      <ExperienceBar></ExperienceBar>
     </div>
   );
 }
